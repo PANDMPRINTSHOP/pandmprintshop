@@ -443,32 +443,33 @@ hr{
   }
     /*---Footer---*/
 #foot{
-   display: none;
+   
   }
 hr{
     width: 100%;
      border: 0;
     border-top: 1px solid #0186d5;
+    justify-content: center;
 
 }
 .foot-row{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     
 }
 .foot-left-col{
     flex-basis: 50%;
     margin-top: 5px;
-    
+    display: none;
 }
 .foot-right-col{
     flex-basis: 50%;
 }
 
 .foot-links{
-  display: flex;
+  display: none;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -477,10 +478,14 @@ hr{
 .link-title h4{
     color: #00cbfe;
     margin-bottom: 10px;
+    align-content: center;
 }
 
  .link-title img{
-    width: 15%;
+    width: 25%;
+     align-content:center;
+     justify-content: center;
+     margin-top: 50px;
 }
    #offer2{
     padding: 100px 0;
@@ -533,6 +538,42 @@ iframe {
    }
 
 }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
